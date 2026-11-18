@@ -1,11 +1,16 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Feed from "./pages/Feed.jsx";
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    "Hello"
+    <Router>
+      <Routes>
+          <Route exact path="/feed" element={<Feed/>} />
+      </Routes>
+    </Router>
   )
 }
 
