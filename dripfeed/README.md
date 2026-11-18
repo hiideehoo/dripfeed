@@ -1,0 +1,1 @@
+DripFeed will be a project of mine in which I develop traditional features of a social media app as practice. Once I feel comfortable implementing these features, I will move on to conceptualizing a niche for this app to be a healthier alternative for cognitive health as well as social engagement.
